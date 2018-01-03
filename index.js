@@ -64,15 +64,28 @@ bot.on("message", function(message) {
                 .addField("ID", message.author.id)
             message.channel.sendEmbed(embed);
             break;
+        case "yt":
+            var embed = new Discord.Client()
+                .setFooter("Copyrighted by Kane")
+                .addBlankField()
+                .setTitle("This is Kane's YouTube channel!")
+                .addField("URL :", "https://wwww.youtube.com/c/KaneDoetGamez")
+                .addBlankField()
+                .setColor(0x00FFFF)
+            message.channel.sendEmbed(embed);
+            break;
         case "help":
             var embed = new Discord.RichEmbed()
                 .setFooter("Copyrighted by Kane")
+                .addBlankField()
+                .setTitle("This is the help menu of: SmikkelNetwork BOT")
+                .addField("Help", "Do (!)help to see the help message!", true)
                 .addField("Ping", "Do (!)ping and the bot say something back!", true)
                 .addField("Info", "Do (!)info to see who made the discord bot!", true)
                 .addField("Question", "Do (!)question (your question here) and the bot say a answer back!", true)
                 .addField("Profile", "Do (!)profile to see your profile!", true)
                 .addField("Tutorials", "Do (!)tutorials to see ho many and what of kind tutorials are currently online!", true)
-                .addField("Help", "Do (!)help to see the help message!", true)
+                .addField("Kane's YT channel", "Do (!)yt to get the URL of Kane's YouTube channel!", true)
                 .setColor(0x00FFFF)
             message.channel.sendEmbed(embed);
             break;
