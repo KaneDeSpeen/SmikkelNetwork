@@ -1,0 +1,13 @@
+{
+  "name": "smikkelnetwerk",
+  "version": "1.0.0",
+  "description": "This is the best BOT that you can have to add to your discord server!",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Kane",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
