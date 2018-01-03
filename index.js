@@ -78,7 +78,7 @@ bot.on("message", function(message) {
             var embed = new Discord.RichEmbed()
                 .setFooter("Copyrighted by Kane")
                 .addBlankField()
-                .setTitle("This is the help menu of: SmikkelNetwork BOT")
+                .setTitle("This is the help menu of SmikkelNetwork BOT")
                 .addField("Help", "Do (!)help to see the help message!", true)
                 .addField("Ping", "Do (!)ping and the bot say something back!", true)
                 .addField("Info", "Do (!)info to see who made the discord bot!", true)
