@@ -68,8 +68,9 @@ bot.on("message", function(message) {
             var embed = new Discord.Client()
                 .setFooter("Copyrighted by Kane")
                 .addBlankField()
-                .setTitle("This is Kane's YouTube channel!")
+                .setTitle("This is Kane's YouTube channel!", true)
                 .addField("URL :", "https://wwww.youtube.com/c/KaneDoetGamez")
+                .addField("If you have question(s) of making a bot of you have no idea how to make a bot?! Subscribe than to my channel and leave a comment below on my last video!", true)
                 .addBlankField()
                 .setColor(0x00FFFF)
             message.channel.sendEmbed(embed);
